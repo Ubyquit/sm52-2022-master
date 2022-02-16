@@ -55,7 +55,7 @@ const CreateUserScreen = (props) => {
                 value = {state.phone}/>
             </View>
             <View style={Styles.button}>
-                <Button title="Save User"/>
+                <Button title="Save User" onPress={() => saveNewUser()} />
             </View>
         </ScrollView>
     )
